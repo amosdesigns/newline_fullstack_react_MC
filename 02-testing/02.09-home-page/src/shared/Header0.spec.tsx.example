@@ -1,0 +1,5 @@
+describe("Header", () => {
+  it.todo("renders correctly");
+
+  it.todo("navigates to / on header title click");
+});

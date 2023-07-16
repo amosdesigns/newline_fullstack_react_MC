@@ -1,0 +1,13 @@
+describe("ProductCard", () => {
+  it.todo("renders correctly")
+
+  describe("when the product is in the cart", () => {
+    it.todo("the 'Add to cart' button is disabled")
+  })
+
+  describe("when the product is not in the cart", () => {
+    describe("on 'Add to cart' click", () => {
+      it("calls the 'addToCart' function")
+    })
+  })
+})

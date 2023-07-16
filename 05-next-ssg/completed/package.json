@@ -1,0 +1,28 @@
+{
+  "name": "05-ssr-and-ssg",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "next build",
+    "start": "next start",
+    "dev": "next"
+  },
+  "dependencies": {
+    "@types/react-redux": "^7.1.16",
+    "@types/styled-components": "^5.1.7",
+    "babel-plugin-styled-components": "^1.12.0",
+    "body-parser": "^1.19.0",
+    "next": "^11.0.1",
+    "next-redux-wrapper": "^7.0.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-redux": "^7.2.2",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^16.3.2",
+    "@types/react": "^17.0.2",
+    "typescript": "^4.2.2"
+  }
+}

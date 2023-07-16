@@ -1,0 +1,17 @@
+import { Home } from "./Home"
+import { Category } from "../shared/types"
+import { render } from "@testing-library/react"
+
+describe("Home", () => {
+  describe("while loading", () => {
+    it.todo("renders loader")
+  })
+
+  describe("with data", () => {
+    it.todo("renders categories with products")
+  })
+
+  describe("with error", () => {
+    it.todo("renders error message")
+  })
+})
